@@ -3,3 +3,7 @@ langchain
 langchain-huggingface
 gradio
 spaces 
+diffusers
+gradio
+spaces
+torch
