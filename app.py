@@ -20,10 +20,10 @@ iface = gr.Interface(
     fn=generate_image,
     inputs=[
         gr.Textbox(label="Prompt"),
-        gr.Dropdown(list(MODEL_OPTIONS.keys()), label="Model", value="Waifu Diffusion (NSFW)")
+        gr.Dropdown(list(MODEL_OPTIONS.keys()), label="Model", value="Stable Diffusion 2.1")
     ],
     outputs=gr.Image(type="pil"),
-    title="ZeroGPU Text-to-Image Generator (NSFW/Unfiltered)"
+    title="ZeroGPU Text-to-Image Generator"
 )
 
 if __name__ == "__main__":

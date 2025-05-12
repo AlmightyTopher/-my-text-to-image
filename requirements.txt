@@ -2,8 +2,6 @@ transformers
 langchain
 langchain-huggingface
 gradio
-spaces 
-diffusers
-gradio
 spaces
+diffusers
 torch
